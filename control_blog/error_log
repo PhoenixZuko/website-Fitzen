@@ -1,0 +1,8 @@
+[26-Jan-2025 13:14:58 UTC] PHP Warning:  Undefined variable $article in /home/wfdjveoc/public_html/control_blog/manage_articles.php on line 2
+[26-Jan-2025 13:14:58 UTC] PHP Warning:  Trying to access array offset on null in /home/wfdjveoc/public_html/control_blog/manage_articles.php on line 2
+[26-Jan-2025 13:14:58 UTC] PHP Warning:  Undefined variable $article in /home/wfdjveoc/public_html/control_blog/manage_articles.php on line 3
+[26-Jan-2025 13:14:58 UTC] PHP Warning:  Trying to access array offset on null in /home/wfdjveoc/public_html/control_blog/manage_articles.php on line 3
+[26-Jan-2025 13:31:58 UTC] PHP Warning:  Undefined variable $article in /home/wfdjveoc/public_html/control_blog/manage_articles.php on line 2
+[26-Jan-2025 13:31:58 UTC] PHP Warning:  Trying to access array offset on null in /home/wfdjveoc/public_html/control_blog/manage_articles.php on line 2
+[26-Jan-2025 13:31:58 UTC] PHP Warning:  Undefined variable $article in /home/wfdjveoc/public_html/control_blog/manage_articles.php on line 3
+[26-Jan-2025 13:31:58 UTC] PHP Warning:  Trying to access array offset on null in /home/wfdjveoc/public_html/control_blog/manage_articles.php on line 3

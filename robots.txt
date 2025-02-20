@@ -1,0 +1,45 @@
+# robots.txt pentru fitzen.ro
+
+# Permite accesul complet pentru toate motoarele de căutare
+User-agent: *
+Disallow:
+
+# Blochează paginile sensibile sau care nu trebuie indexate
+Disallow: /admin/
+Disallow: /login.php
+Disallow: /register.php
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /user-settings/
+Disallow: /test/
+
+# Blochează parametrii URL redundanți
+Disallow: /*?sessionid=
+Disallow: /*&ref=
+Disallow: /*?ref=
+
+# Exclude fișiere inutile pentru indexare (CSS, JS, imagini)
+Disallow: /*.css$
+Disallow: /*.js$
+Disallow: /*.png$
+Disallow: /*.jpg$
+Disallow: /*.jpeg$
+Disallow: /*.gif$
+Disallow: /*.svg$
+Disallow: /*.ico$
+Disallow: /*.woff$
+Disallow: /*.woff2$
+Disallow: /*.ttf$
+Disallow: /*.eot$
+
+# Blochează accesul bot-urilor specifice (dacă e cazul)
+User-agent: BadBot
+Disallow: /
+
+# Specifică locația sitemap-ului
+Sitemap: https://fitzen.ro/sitemap.xml
+
+# Setări pentru crawl delay (opțional, pentru a reduce încărcarea serverului)
+# Crawl-delay: 10
+
+Sitemap: https://fitzen.ro/sitemap.php
