@@ -1,70 +1,70 @@
-# Fitzen - Blog Scalabil si Optimizat
+# Fitzen - Scalable and Optimized Blog
 
-**Fitzen** a inceput ca o tema HTML5 gratuita, dar a evoluat intr-o platforma completa pentru gestionarea articolelor, optimizata pentru SEO si utilizare eficienta.
-
----
-
-## ** Caracteristici Principale**
-
-### ** Design Responsiv si Scalabil**
-- Tema HTML5 optimizata pentru desktop, tableta si telefon.
-- Performanta ridicata si incarcare rapida.
-- **Butoane de Zoom In si Zoom Out** pentru dispozitive mobile, oferind o solutie simpla si eficienta pentru a evita problemele cu textul prea mic.
-
-### ** Dashboard pentru Gestionare**
-- Adaugare si editare de articole dintr-un **dashboard dedicat**.
-- Sistem de moderare a comentariilor direct din panoul de administrare.
-
-### ** Articole cu mai multe parti**
-- Posibilitatea de a adauga **parti suplimentare** unui articol existent.
-- PHP-ul genereaza automat un **buton de navigare** catre urmatoarea parte.
-
-### ** Tracking & Analytics**
-- Stocare **IP** in SQL pentru a contoriza **numarul de vizualizari** ale unui articol.
-- Vizualizarile sunt afisate pe pagina pentru transparenta.
-
-### ** Sistem de Rating (Vot cu Stele)**
-- Implementat in **JavaScript**, utilizatorii pot vota articolele cu stele.
-- Protectie impotriva spamului: fiecare utilizator poate vota **o singura data** (inregistrat prin IP).
-
-### ** SEO & Optimizare**
-- **Autogenerare de metadate**: PHP extrage titlul articolului si il completeaza automat in **meta tags**.
-- Site-ul a fost testat si obtinut un scor **SEO de 100**.
-- Include si un **sitemap** pentru o indexare mai eficienta de catre motoarele de cautare.
+**Fitzen** started as a free HTML5 theme but has evolved into a complete platform for article management, optimized for SEO and efficient usage.
 
 ---
 
-## ** Tehnologii Folosite**
+## **Key Features**
+
+### **Responsive and Scalable Design**
+- HTML5 theme optimized for desktop, tablet, and mobile devices.
+- High performance and fast loading speed.
+- **Zoom In and Zoom Out buttons** for mobile devices, providing a simple and effective solution to avoid small text issues.
+
+### **Management Dashboard**
+- Add and edit articles from a **dedicated dashboard**.
+- Comment moderation system directly from the admin panel.
+
+### **Multi-Part Articles**
+- Ability to add **additional parts** to an existing article.
+- PHP automatically generates a **navigation button** to the next part.
+
+### **Tracking & Analytics**
+- **IP storage** in SQL to count **the number of views** per article.
+- Views are displayed on the page for transparency.
+
+### **Rating System (Star Voting)**
+- Implemented in **JavaScript**, allowing users to vote for articles with stars.
+- Spam protection: each user can vote **only once** (tracked via IP).
+
+### **SEO & Optimization**
+- **Automatic metadata generation**: PHP extracts the article title and fills in **meta tags** automatically.
+- The site has been tested and achieved an **SEO score of 100**.
+- Includes a **sitemap** for more efficient indexing by search engines.
+
+---
+
+## **Technologies Used**
 - **Frontend:** HTML5, CSS3, JavaScript
 - **Backend:** PHP, MySQL
-- **SEO:** Optimizare meta tags, sitemap
-- **Tracking & Analytics:** Stocare IP, contorizare view-uri
-- **Interactivitate:** Sistem de vot JavaScript, navigare articole
-- **Optimizare Mobil:** Media Queries, butoane de Zoom In/Out
+- **SEO:** Meta tag optimization, sitemap
+- **Tracking & Analytics:** IP storage, view count
+- **Interactivity:** JavaScript voting system, article navigation
+- **Mobile Optimization:** Media Queries, Zoom In/Out buttons
 
 ---
 
-## ** Instalare & Configurare**
-1. Cloneaza repository-ul:
+## **Installation & Configuration**
+1. Clone the repository:
    ```sh
-   git clone https://github.com/utilizatorul-tau/fitzen.git
+   git clone https://github.com/your-username/fitzen.git
    ```
-2. Importa baza de date SQL in serverul MySQL.
-3. Configureaza conexiunea SQL in fisierul `config.php`:
+2. Import the SQL database into your MySQL server.
+3. Configure the SQL connection in the `config.php` file:
    ```php
    $servername = "localhost";
    $username = "root";
    $password = "";
    $dbname = "fitzen";
    ```
-4. incarca fisierele pe un server cu suport PHP & MySQL.
-5. Acceseaza dashboard-ul pentru administrare.
+4. Upload the files to a server that supports PHP & MySQL.
+5. Access the dashboard for management.
 
 ---
 
-## ** Licenta & Drepturi**
-- Tema de baza este **gratuita si open-source**.
-- Codul modificat este **disponibil pentru utilizare si extindere**.
+## **License & Rights**
+- The base theme is **free and open-source**.
+- The modified code is **available for use and further development**.
 
-  **Fitzen nu este doar un simplu site, ci un sistem avansat de gestionare a continutului!** 
+  **Fitzen is not just a simple website but an advanced content management system!**
 
